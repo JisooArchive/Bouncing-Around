@@ -29,6 +29,7 @@ class App {
 
         this.canvas.width = this.stageWidth * 2;
         this.canvas.height = this.stageHeight * 2;
+        
         this.ctx.scale(2, 2);
     }
 
