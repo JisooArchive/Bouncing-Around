@@ -19,7 +19,6 @@ class App {
         this.ball = new Ball(this.stageWidth, this.stageHeight, 60, 5)
         this.block = new Block(500, 100, 300, 600)
     
-
         window.requestAnimationFrame(this.animate.bind(this))
     }
 
