@@ -19,6 +19,7 @@ export class Block {
 
         ctx.fillStyle = '#190f3a';
         ctx.beginPath();
+        
         ctx.moveTo(this.maxX, this.maxY);
         ctx.lineTo(this.maxX - xGap, this.maxY + yGap);
         ctx.lineTo(this.x - xGap, this.maxY + yGap);
