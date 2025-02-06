@@ -12,7 +12,6 @@ export class Ball {
     draw(ctx, stageWidth, stageHeight, block) {
         this.x += this.vx;
         this.y += this.vy;
-
         this.bounceWindow(stageWidth, stageHeight);
         this.bounceBlock(block);
 
